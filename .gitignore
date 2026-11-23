@@ -1,0 +1,15 @@
+Fragmento de código
+# Entorno virtual
+.banco/
+venv/
+env/
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Checkpoints de Jupyter y sistema
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db

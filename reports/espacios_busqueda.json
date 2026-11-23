@@ -1,0 +1,71 @@
+{
+    "Regresion_Logistica": {
+        "clf__C": [
+            0.01,
+            0.1,
+            1.0,
+            10.0
+        ],
+        "clf__solver": [
+            "lbfgs"
+        ]
+    },
+    "Naive_Bayes": {
+        "clf__var_smoothing": [
+            1e-11,
+            1e-10,
+            1e-09,
+            1e-08,
+            1e-07,
+            1e-06,
+            1e-05
+        ]
+    },
+    "SVM": [
+        {
+            "clf__kernel": [
+                "linear"
+            ],
+            "clf__C": [
+                0.1,
+                1.0,
+                10.0
+            ]
+        },
+        {
+            "clf__kernel": [
+                "rbf"
+            ],
+            "clf__C": [
+                0.5,
+                1.0,
+                5.0
+            ],
+            "clf__gamma": [
+                "scale",
+                0.01,
+                0.1
+            ]
+        }
+    ],
+    "Red_Neuronal": [
+        {
+            "units_1": 64,
+            "units_2": 32,
+            "dropout_rate": 0.3,
+            "learning_rate": 0.001
+        },
+        {
+            "units_1": 128,
+            "units_2": 64,
+            "dropout_rate": 0.3,
+            "learning_rate": 0.001
+        },
+        {
+            "units_1": 64,
+            "units_2": 32,
+            "dropout_rate": 0.2,
+            "learning_rate": 0.0005
+        }
+    ]
+}

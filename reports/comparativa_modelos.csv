@@ -1,0 +1,5 @@
+Modelo,Criterio_Variabilidad,Mejores_Hiperparametros,Val_F1_Media,Val_F1_Std,Val_AUC_Media,Val_AUC_Std,Test_Accuracy,Test_Precision,Test_Recall,Test_F1,Test_ROC_AUC,Test_PR_AUC
+Regresión Logística,5-fold CV,"{'clf__C': 10.0, 'clf__solver': 'lbfgs'}",0.3711,0.0097,0.7485,0.0115,0.763,0.2669,0.5876,0.3671,0.7386,0.3668
+Naive Bayes,5-fold CV,{'clf__var_smoothing': 1e-11},0.3915,0.0201,0.7299,0.0156,0.8453,0.3581,0.4073,0.3811,0.7237,0.3272
+SVM,5-fold CV (n=6000),"{'clf__C': 5.0, 'clf__gamma': 0.01, 'clf__kernel': 'rbf'}",0.4229,0.0064,0.7601,0.0046,0.844,0.3765,0.5095,0.433,0.762,0.3954
+Red Neuronal,5 semillas (Val),"{'units_1': 64, 'units_2': 32, 'dropout_rate': 0.2, 'learning_rate': 0.0005}",0.4359,0.005,0.7791,0.0033,0.8309,0.3573,0.5586,0.4358,0.7802,0.4124
